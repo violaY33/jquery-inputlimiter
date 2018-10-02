@@ -15,7 +15,7 @@
 
 ```js
 $(function() {
-	$('#ipt1').inputlimiter({
+    $('#ipt1').inputlimiter({
         limit: 10
     });
 });
