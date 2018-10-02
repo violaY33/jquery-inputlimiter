@@ -8,9 +8,14 @@
 
 ## 基础用法
 
+```html
+<input tupe="text" name="name" id="ipt1" />
 ```
+
+
+```js
 $(function() {
-	$('textarea').inputlimiter({
+	$('#ipt1').inputlimiter({
         limit: 10
     });
 });
